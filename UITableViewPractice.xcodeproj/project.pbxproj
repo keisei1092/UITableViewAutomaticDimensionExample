@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3AFCF6C1E3F254C002ABDB3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AFCF6A1E3F254C002ABDB3 /* TableViewCell.swift */; };
+		F3AFCF6D1E3F254C002ABDB3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3AFCF6B1E3F254C002ABDB3 /* TableViewCell.xib */; };
 		F3B2E6AD1E3F23210038D700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2E6AC1E3F23210038D700 /* AppDelegate.swift */; };
 		F3B2E6AF1E3F23210038D700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B2E6AE1E3F23210038D700 /* ViewController.swift */; };
 		F3B2E6B21E3F23210038D700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B2E6B01E3F23210038D700 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3AFCF6A1E3F254C002ABDB3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F3AFCF6B1E3F254C002ABDB3 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		F3B2E6A91E3F23210038D700 /* UITableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B2E6AC1E3F23210038D700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3B2E6AE1E3F23210038D700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				F3B2E6B31E3F23210038D700 /* Assets.xcassets */,
 				F3B2E6B51E3F23210038D700 /* LaunchScreen.storyboard */,
 				F3B2E6B81E3F23210038D700 /* Info.plist */,
+				F3AFCF6A1E3F254C002ABDB3 /* TableViewCell.swift */,
+				F3AFCF6B1E3F254C002ABDB3 /* TableViewCell.xib */,
 			);
 			path = UITableViewPractice;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B2E6B71E3F23210038D700 /* LaunchScreen.storyboard in Resources */,
+				F3AFCF6D1E3F254C002ABDB3 /* TableViewCell.xib in Resources */,
 				F3B2E6B41E3F23210038D700 /* Assets.xcassets in Resources */,
 				F3B2E6B21E3F23210038D700 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AFCF6C1E3F254C002ABDB3 /* TableViewCell.swift in Sources */,
 				F3B2E6AF1E3F23210038D700 /* ViewController.swift in Sources */,
 				F3B2E6AD1E3F23210038D700 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +522,7 @@
 				F3B2E6D31E3F23210038D700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3B2E6D41E3F23210038D700 /* Build configuration list for PBXNativeTarget "UITableViewPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				F3B2E6D61E3F23210038D700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3B2E6D71E3F23210038D700 /* Build configuration list for PBXNativeTarget "UITableViewPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				F3B2E6D91E3F23210038D700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

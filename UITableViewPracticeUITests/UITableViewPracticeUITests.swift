@@ -2,7 +2,7 @@
 //  UITableViewPracticeUITests.swift
 //  UITableViewPracticeUITests
 //
-//  Created by SaitoKeisei on 2017/1/30.
+//  Created by keisei_1092 on 2017/1/30.
 //  Copyright © 2017年 keisei_1092. All rights reserved.
 //
 
